@@ -10,7 +10,7 @@ namespace MVCGit.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "I Use this to understand git";
+            ViewBag.Message = "I Use this to understand git. add the rsa key.";
 
             return View();
         }

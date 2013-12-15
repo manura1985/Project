@@ -10,14 +10,14 @@ namespace MVCGit.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "I Use this to understand git.";
+            ViewBag.Message = "I Use this to understand git";
 
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "git repo.";
 
             return View();
         }

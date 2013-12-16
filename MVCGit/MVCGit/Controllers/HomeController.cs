@@ -17,6 +17,7 @@ namespace MVCGit.Controllers
 
         public ActionResult About()
         {
+            ViewBag.Message = "git repo.change2";
             ViewBag.Message = "git repo.change from 1985";
 
             return View();
